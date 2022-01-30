@@ -109,7 +109,7 @@ hr {
 
 @media only screen and (max-width: 600px) {
   .content {
-    margin-right: 1rem;
+    margin-right: 3rem;
   }
   .iframeHide {
     display: none;
