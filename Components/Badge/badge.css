@@ -84,7 +84,7 @@ hr {
   border: 0.2rem solid white;
   position: absolute;
   top: 80px;
-  left: 85px;
+  left: 80px;
 }
 .offline {
   background-color: gray;
@@ -94,7 +94,7 @@ hr {
   border: 0.2rem solid white;
   position: absolute;
   top: 80px;
-  left: 85px;
+  left: 80px;
 }
 .dnd {
   background-color: red;
@@ -104,7 +104,16 @@ hr {
   border: 0.2rem solid white;
   position: absolute;
   top: 80px;
-  left: 85px;
+  left: 80px;
+}
+iframe {
+  min-width: 706px;
+  height: 447px;
+  border: 0;
+  /* transform: scale(1); */
+  /* overflow: hidden; */
+  /* margin-left: 8rem; */
+  margin-top: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
