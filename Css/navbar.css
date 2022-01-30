@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.nav-title {
+  font-size: 1.92rem;
+  font-weight: 900;
+}
+.margin-left {
+  margin-left: auto;
+}
+.margin-left-title {
+  margin-left: 15rem;
+}
+.nav {
+  display: flex;
+  margin-top: 6rem;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  gap: 2rem;
+  margin-right: 5rem;
+  /* margin: 2rem; */
+}
+
+.small-text {
+  font-size: 1.6rem;
+  /* font-size: small; */
+  /* font-size: medium; */
+  color: gray;
+  margin-left: -1rem;
+}
+@media only screen and (max-width: 600px) {
+  .margin-left-title {
+    margin-left: 0rem;
+  }
+}
