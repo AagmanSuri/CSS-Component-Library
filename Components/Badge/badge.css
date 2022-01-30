@@ -51,6 +51,6 @@ hr {
 }
 @media only screen and (max-width: 600px) {
   .content {
-    margin-right: 0;
+    margin-right: 1rem;
   }
 }
