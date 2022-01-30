@@ -1,0 +1,56 @@
+html {
+  font-size: 65.5%;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: Roboto, sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  display: flex;
+}
+.content {
+  margin-left: 4rem;
+  margin-top: 10rem;
+  margin-right: 21rem;
+}
+.title {
+  font-size: 3.2rem;
+  font-weight: 900;
+}
+.p-content {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+.sub-title {
+  font-size: 2.72rem;
+  font-weight: 800;
+}
+hr {
+  background-color: lightgray;
+  border: 0;
+  clear: both;
+  display: block;
+  background-color: lightgray;
+  height: 1px;
+}
+.margin-bottom-1 {
+  margin-bottom: 3rem;
+}
+.margin-top-1 {
+  margin-top: 33rem;
+}
+@media only screen and (max-width: 600px) {
+  .content {
+    margin-right: 0;
+  }
+}
