@@ -6,6 +6,12 @@ a {
   font-size: 1.92rem;
   font-weight: 900;
 }
+
+.nav-items {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
 .margin-left {
   margin-left: auto;
 }
@@ -33,7 +39,7 @@ a {
   .margin-left-title {
     margin-left: 1rem;
   }
-  .hide {
+  /* .hide {
     display: none;
-  }
+  } */
 }
