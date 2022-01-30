@@ -111,4 +111,7 @@ hr {
   .content {
     margin-right: 1rem;
   }
+  .iframeHide {
+    display: none;
+  }
 }
