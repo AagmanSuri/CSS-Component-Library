@@ -59,6 +59,25 @@ hr {
 .margin-top-1 {
   margin-top: 33rem;
 }
+.intro-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 12rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.heading {
+  font-size: 5.6rem;
+  font-weight: 900;
+  text-align: center;
+}
+.sub-heading {
+  font-size: 2.24rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
 @media only screen and (max-width: 600px) {
   .content {
     margin-right: 3rem;

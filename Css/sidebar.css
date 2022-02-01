@@ -15,20 +15,17 @@
   flex-wrap: wrap;
   gap: 1rem;
 }
+
 .side-bar-title {
   font-size: 1.6rem;
   font-weight: 700;
 }
+
 .side-bar-items {
   font-size: 1.3rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
-/* #line {
-  float: left;
-  width: 731px;
-  height: 10px;
-} */
 
 @media only screen and (max-width: 600px) {
   .side-bar {
