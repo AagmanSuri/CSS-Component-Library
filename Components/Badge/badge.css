@@ -107,7 +107,7 @@ hr {
   left: 80px;
 }
 iframe {
-  min-width: 706px;
+  max-width: 706px;
   height: 447px;
   border: 0;
   margin-top: 2rem;
