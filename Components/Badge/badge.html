@@ -10,8 +10,7 @@
     <link rel="stylesheet" href="../../Css/navbar.css">
     <link rel="stylesheet" href="../../Css/sidebar.css">
     <link rel="stylesheet" href="../../Css/components.css">
-
-
+    <link rel="stylesheet" href="../../Assets/Prism/prism.css">
 </head>
 
 <body>
@@ -42,6 +41,7 @@
                 <div id="line">
                     <hr class="hr-sideBar" />
                 </div>
+
                 <a class="side-bar-items" href="../Avatar/avatar.html">Avatar</a>
                 <a class="side-bar-items" href="#">Alert</a>
                 <a class="side-bar-items active" href="./badge.html">Badge</a>
@@ -67,7 +67,8 @@
                         with 3 variants : online | offline | dnd</span></p>
 
                 <!-- Profile Badge -->
-                <div class="badge-profile-container">
+
+                <div class="badge-container">
                     <div class="badge">
                         <img class="profile-badge" src="https://bit.ly/3ocYDQt"></img>
                         <div class="online"></div>
@@ -82,17 +83,73 @@
                         <div class="dnd"></div>
                     </div>
                 </div>
+
                 <iframe class="iframeHide" src="https://carbon.now.sh/embed/9jKmjE8y6r4AntzpJDjY"
                     style="width: 1024px; height: 465px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <hr class="margin-bottom-1">
 
+                <!-- Number Badge -->
 
+                <span class="sub-title">Number Badge</span>
+                <p class="p-content">Number Badge is used to show the no. of items present in the parent component.
+                </p>
+                <div class="badge-container ">
 
+                    <div class="number-badge">
+                        <button class="badge-button ">Action</button>
+                        <span class="badge-icon badge-left">16</span>
+                    </div>
+
+                    <div class="number-badge">
+                        <button class="badge-button ">Action</button>
+                        <span class="badge-icon badge-right">10</span>
+                    </div>
+
+                    <div class="number-badge">
+                        <text>Text with a badge</text>
+                        <span id="hide" class="badge-text">15</span>
+                    </div>
+
+                    <div class="number-badge">
+                        <button class=" badge-button  home-btn"><img
+                                src="https://api.iconify.design/ci:home-alt-fill.svg"></img></button>
+                        <span class="badge-left-home">12</span>
+                    </div>
+
+                </div>
+
+                <!-- Prism Code  -->
+                <pre>
+                <code class="language-html">
+                    &lt;div class="number-badge">
+                    &lt;button class="badge-button ">Action</button>
+                    &lt;span class="badge-icon badge-left">16</span>
+                    &lt;/div>
+
+                     &lt;div class="number-badge">
+                         &lt;button class="badge-button ">Action&lt;/button>
+                         &lt;span class="badge-icon badge-right">10&lt;/span>
+                     &lt;/div>
+
+                     &lt;div class="number-badge">
+                         &lt;text>Text with a badge&lt;/text>
+                         &lt;span id="hide" class="badge-text">15&lt;/span>
+                     &lt;/div>
+
+                     &lt;div class="number-badge">
+                         &lt;button class=" badge-button  home-btn">&lt;img
+                                 src="https://api.iconify.design/ci:home-alt-fill.svg">&lt;/img>&lt;/button>
+                         &lt;span class="badge-left-home">12&lt;/span>
+                     &lt;/div>
+                </code>
+
+</pre>
             </div>
         </div>
     </div>
+    <script src="../../Assets/Prism/prism.js"></script>
 </body>
 
 </html>
