@@ -96,6 +96,25 @@ hr {
   margin-top: 1rem;
 }
 
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+}
+
 @media only screen and (max-width: 600px) {
   .content {
     margin-right: 3rem;
