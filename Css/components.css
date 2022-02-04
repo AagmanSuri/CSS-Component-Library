@@ -102,6 +102,7 @@ hr {
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  margin-top: 2rem;
 }
 
 .button {
@@ -116,6 +117,12 @@ hr {
 }
 
 @media only screen and (max-width: 600px) {
+  .ham-icon {
+    margin-left: auto;
+  }
+  .hide-nav {
+    display: none;
+  }
   .content {
     margin-right: 3rem;
   }
