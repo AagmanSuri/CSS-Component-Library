@@ -15,9 +15,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+
 .wrapper {
   display: flex;
 }
+
 .content {
   margin-left: 4rem;
   margin-top: 10rem;
@@ -55,9 +57,41 @@ hr {
 .margin-top-1 {
   margin-top: 33rem;
 }
-.avatar {
+
+.avatar-container {
   display: flex;
-  background-color: lightskyblue;
+  min-height: 20rem;
+  background-color: lightgray;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sm {
+  height: 60px;
+  width: 60px;
+}
+
+.md {
+  height: 90px;
+  width: 90px;
+}
+
+.lg {
+  height: 120px;
+  width: 120px;
+}
+
+.square {
+  border-radius: 2rem;
 }
 iframe {
   min-width: 706px;
