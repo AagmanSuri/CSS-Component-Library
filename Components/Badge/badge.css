@@ -1,67 +1,7 @@
-html {
-  font-size: 65.5%;
-}
-
-body {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-size: 1.6rem;
-  font-family: Roboto, sans-serif;
-  color: rgb(51, 51, 51);
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
-.wrapper {
-  display: flex;
-}
-
-.content {
-  margin-left: 4rem;
-  margin-top: 10rem;
-  margin-right: 21rem;
-}
-
-.title {
-  font-size: 3.2rem;
-  font-weight: 900;
-}
-
-.p-content {
-  font-weight: 400;
-  font-size: 1.6rem;
-}
-
-.sub-title {
-  font-size: 2.72rem;
-  font-weight: 800;
-}
-
-hr {
-  background-color: lightgray;
-  border: 0;
-  clear: both;
-  display: block;
-  background-color: lightgray;
-  height: 1px;
-}
-
-.margin-bottom-1 {
-  margin-bottom: 3rem;
-}
-
-.margin-top-1 {
-  margin-top: 33rem;
-}
-
 .badge-container {
-  background-color: lightgray;
+  background-color: var(--lightGray-color);
   min-height: 20rem;
-  border: 1rem solid lightgray;
+  border: 1rem solid var(--lightGray-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,33 +21,33 @@ hr {
 }
 
 .online {
-  background-color: green;
+  background-color: var(--online-color);
   height: 1.3rem;
   width: 1.3rem;
   border-radius: 50%;
-  border: 0.2rem solid white;
+  border: 0.2rem solid var(--badge-border);
   position: absolute;
   top: 80px;
   left: 75px;
 }
 
 .offline {
-  background-color: gray;
+  background-color: var(--gray-color);
   height: 1.3rem;
   width: 1.3rem;
   border-radius: 50%;
-  border: 0.2rem solid white;
+  border: 0.2rem solid var(--badge-border);
   position: absolute;
   top: 80px;
   left: 75px;
 }
 
 .dnd {
-  background-color: red;
+  background-color: var(--dnd-color);
   height: 1.3rem;
   width: 1.3rem;
   border-radius: 50%;
-  border: 0.2rem solid white;
+  border: 0.2rem solid var(--badge-border);
   position: absolute;
   top: 80px;
   left: 75px;
