@@ -75,8 +75,9 @@ hr {
 
 .profile-badge {
   border-radius: 50%;
-  height: 10rem;
-  width: 10rem;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
 }
 
 .online {
@@ -87,7 +88,7 @@ hr {
   border: 0.2rem solid white;
   position: absolute;
   top: 80px;
-  left: 80px;
+  left: 75px;
 }
 
 .offline {
@@ -98,7 +99,7 @@ hr {
   border: 0.2rem solid white;
   position: absolute;
   top: 80px;
-  left: 80px;
+  left: 75px;
 }
 
 .dnd {
@@ -109,7 +110,7 @@ hr {
   border: 0.2rem solid white;
   position: absolute;
   top: 80px;
-  left: 80px;
+  left: 75px;
 }
 
 iframe {
