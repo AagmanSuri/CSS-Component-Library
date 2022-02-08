@@ -10,6 +10,9 @@
   --badge-border: white;
   --gray-color: gray;
   --dnd-color: red;
+  --white-color: white;
+  --danger-color: red;
+  --success-color: green;
 }
 
 html {
