@@ -2,14 +2,17 @@
 @import url("../Components/Avatar/avatar.css");
 
 :root {
-  --primary-color: #f39f79;
-  --secondary-color: #f9d6c6;
+  --primary-color: #b34000;
+  --secondary-color: darkgray;
   --default-color: rgb(51, 51, 51);
   --lightGray-color: lightgray;
   --online-color: green;
-  --badge-border: white;
+  --badge-border: #ffffff;
   --gray-color: gray;
-  --dnd-color: red;
+  --dnd-color: #de0101;
+  --white-color: white;
+  --danger-color: #de0101;
+  --success-color: green;
 }
 
 html {
