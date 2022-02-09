@@ -85,7 +85,6 @@
   border: none;
 }
 
-.btn-icon {
-  position: absolute;
-  right: 64rem;
+.link-btn a {
+  color: var(--white-color);
 }
