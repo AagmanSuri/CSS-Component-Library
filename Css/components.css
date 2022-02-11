@@ -132,13 +132,20 @@ hr {
   .ham-icon {
     margin-left: auto;
   }
+
   .hide-nav {
     display: none;
   }
+
   .content {
     margin-right: 3rem;
   }
+
   .iframeHide {
     display: none;
+  }
+
+  .alert {
+    width: auto;
   }
 }

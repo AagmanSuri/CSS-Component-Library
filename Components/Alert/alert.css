@@ -5,12 +5,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 2rem;
   flex-wrap: wrap;
 }
 
 .alert {
-  min-width: 45rem;
+  width: 45rem;
   border-radius: 0.5rem;
   background-color: var(--white-color);
   padding: 1rem;
