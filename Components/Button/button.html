@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technoracy | Button</title>
+    <link rel="stylesheet" href="./button.css">
+    <link rel="stylesheet" href="../../Css/navbar.css">
+    <link rel="stylesheet" href="../../Css/sidebar.css">
+    <link rel="stylesheet" href="../../Css/components.css">
+    <link rel="stylesheet" href="../../Assets/Prism/prism.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class="nav">
+            <a class="nav-items nav-title margin-left-title" href="../../index.html">Technoracy</a>
+            <span class="nav-items small-text">v1.0</span>
+            <a class="nav-items hide-nav margin-left" href="../../index.html">Docs</a>
+            <a class="nav-items hide-nav " href="../../index.html">Example</a>
+            <a class="nav-items hide-nav " href="../../index.html">Release</a>
+            <button id="btn" class="button ham-icon"><img id="ham-icon-id"
+                    src="https://api.iconify.design/cil:hamburger-menu.svg"></img></button>
+        </nav>
+        <div>
+            <section class="hamburger" id="hide">
+                <span class="side-bar-title">Get Started</span>
+                <div id="line">
+
+                </div>
+                <a class="side-bar-items " href="../../Get Started/introduction.html">Introduction</a>
+                <a class="side-bar-items" href="#">Colors</a>
+                <a class="side-bar-items" href="#">Typography</a>
+                <a class="side-bar-items" href="#">Conclusion</a>
+
+                <span class="side-bar-title">Components</span>
+                <div id="line">
+
+                </div>
+                <a class="side-bar-items" href="../Avatar/avatar.html">Avatar</a>
+                <a class="side-bar-items" href="#">Alert</a>
+                <a class="side-bar-items" href="../Badge/badge.html">Badge</a>
+                <a class="side-bar-items" href="../Button/button.html">Button</a>
+                <a class="side-bar-items" href="../Cards/card.html">Card</a>
+                <a class="side-bar-items" href="#">Image</a>
+                <a class="side-bar-items" href="#">List</a>
+                <a class="side-bar-items" href="#">Toast</a>
+            </section>
+        </div>
+        <div class="wrapper">
+
+            <div class="side-bar">
+
+                <span class="side-bar-title">Get Started</span>
+                <div id="line">
+                    <hr class="hr-sideBar" />
+                </div>
+                <a class="side-bar-items" href="../../Get Started/introduction.html">Introduction</a>
+                <a class="side-bar-items" href="#">Colors</a>
+                <a class="side-bar-items" href="#">Typography</a>
+                <a class="side-bar-items" href="#">Conclusion</a>
+
+                <span class="side-bar-title">Components</span>
+                <div id="line">
+                    <hr class="hr-sideBar" />
+                </div>
+
+                <a class="side-bar-items" href="../Avatar/avatar.html">Avatar</a>
+                <a class="side-bar-items" href="#">Alert</a>
+                <a class="side-bar-items " href="../Badge/badge.html">Badge</a>
+                <a class="side-bar-items active" href="../Button/button.html">Button</a>
+                <a class="side-bar-items" href="../Cards/card.html">Card</a>
+                <a class="side-bar-items" href="#">Image</a>
+                <a class="side-bar-items" href="#">List</a>
+                <a class="side-bar-items" href="#">Toast</a>
+
+            </div>
+
+            <div class="content">
+                <span class="title">Button</span>
+                <p class="margin-bottom-1 p-content">Buttons are the soul of an interactive Web Application. Buttons
+                    allow users to take actions, and make choices, with a single tap.
+
+                </p>
+                <hr class="margin-bottom-1">
+                <!-- Contained Button -->
+                <span class="sub-title">Contained Button</span>
+                <p class="p-content">Contained buttons are high-emphasis, distinguished by their use of elevation and
+                    fill. They contain actions that are primary to your app.</p>
+
+
+
+                <div class="button-container">
+                    <button class="btn">Default</button>
+                    <button class="btn btn-secondary">Secondary</button>
+                    <button class="btn btn-error">Error</button>
+                    <button class="btn btn-success">Success</button>
+                </div>
+                <iframe class="iframeHide" src=" https://carbon.now.sh/embed/fP4EP4T5mXY8O4qFipP7"
+                    style="width: 589px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="margin-bottom-1">
+
+                <!-- Outline Button -->
+                <span class="sub-title">Outline Button</span>
+                <p class="p-content">In need of a button, but not the hefty background colors they bring? Replace
+                    '.btn-variant' with '.outline-variant'.</p>
+
+
+
+                <div class="button-container">
+                    <button class="btn outline">Default</button>
+                    <button class="btn outline-secondary">Secondary</button>
+                    <button class="btn outline-error">Error</button>
+                    <button class="btn outline-success">Success</button>
+                </div>
+
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/Q0sj9cyVXEY3qFZUsJ2h"
+                    style="width: 622px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="margin-bottom-1">
+
+                <!-- Link Button -->
+
+                <span id="Link" class="sub-title">Link Button</span>
+                <p class="p-content">Want to attach a link action, at a button tap? Use Link Button</p>
+
+
+
+                <div class="button-container">
+                    <button class="btn link-btn">
+                        <a href="#Link">Link</a>
+                    </button>
+
+                </div>
+
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/2fUMKCGA3IvoMQqXCFIm"
+                    style="width: 395px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="margin-bottom-1">
+
+                <!-- Icon Button -->
+
+                <span id="Link" class="sub-title">Icon Button</span>
+                <p class="p-content">Icon Buttons can be created, by using a SVG as a child to parent button. Use the
+                    'btn' class followed by 'btn-icon'.</p>
+
+
+
+                <div class="button-container">
+                    <button class="btn"><img src="https://bit.ly/3HCXRns"></img>&nbsp
+                        Save</button>
+                </div><iframe class="iframeHide" src=" https://carbon.now.sh/embed/ItrrXL29ey7KFebWjRkY"
+                    style="width: 765px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="margin-bottom-1">
+
+
+            </div>
+        </div>
+    </div>
+    <script src="../../Assets/Prism/prism.js"></script>
+    <script src="../../main.js"></script>
+
+</body>
+
+</html>

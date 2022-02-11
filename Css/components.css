@@ -1,0 +1,143 @@
+@import url("../Components/Badge/badge.css");
+@import url("../Components/Avatar/avatar.css");
+
+:root {
+  --primary-color: #b34000;
+  --secondary-color: darkgray;
+  --default-color: rgb(51, 51, 51);
+  --lightGray-color: lightgray;
+  --online-color: green;
+  --badge-border: #ffffff;
+  --gray-color: gray;
+  --dnd-color: #de0101;
+  --white-color: white;
+  --danger-color: #de0101;
+  --success-color: green;
+  --red-color: red;
+}
+
+html {
+  font-size: 65.5%;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: Roboto, sans-serif;
+  color: var(--default-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.content {
+  margin-left: 4rem;
+  margin-top: 10rem;
+  margin-right: 21rem;
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: 900;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+.p-content {
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.sub-title {
+  font-size: 2.72rem;
+  font-weight: 800;
+}
+
+.active {
+  color: var(--primary-color);
+}
+
+hr {
+  background-color: var(--lightGray-color);
+  border: 0;
+  clear: both;
+  display: block;
+  background-color: var(--lightGray-color);
+  height: 0.1rem;
+}
+
+.margin-bottom-1 {
+  margin-bottom: 3rem;
+}
+
+.margin-top-1 {
+  margin-top: 33rem;
+}
+
+.intro-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 12rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.heading {
+  font-size: 5.6rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.sub-heading {
+  font-size: 2.24rem;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+  .button {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .ham-icon {
+    margin-left: auto;
+  }
+  .hide-nav {
+    display: none;
+  }
+  .content {
+    margin-right: 3rem;
+  }
+  .iframeHide {
+    display: none;
+  }
+}
