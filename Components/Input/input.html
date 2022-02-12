@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technoracy | Alert</title>
-    <link rel="stylesheet" href="./alert.css">
+    <title>Technoracy | Input</title>
+    <link rel="stylesheet" href="./input.css">
     <link rel="stylesheet" href="../../Css/navbar.css">
     <link rel="stylesheet" href="../../Css/sidebar.css">
     <link rel="stylesheet" href="../../Css/components.css">
@@ -46,7 +46,7 @@
                 <a class="side-bar-items" href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
                 <a class="side-bar-items" href="../Responsive-Image/image.html">Image</a>
-                <a class="side-bar-items " href="../Input/input.html">Input</a>
+                <a class="side-bar-items active" href="../Input/input.html">Input</a>
                 <a class="side-bar-items" href="#">List</a>
                 <a class="side-bar-items" href="#">Toast</a>
             </section>
@@ -70,87 +70,116 @@
                 </div>
 
                 <a class="side-bar-items" href="../Avatar/avatar.html">Avatar</a>
-                <a class="side-bar-items active" href="./alert.html">Alert</a>
+                <a class="side-bar-items " href="./alert.html">Alert</a>
                 <a class="side-bar-items " href="../Badge/badge.html">Badge</a>
                 <a class="side-bar-items " href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
-                <a class="side-bar-items" href="../Responsive-Image/image.html">Image</a>
-                <a class="side-bar-items " href="../Input/input.html">Input</a>
+                <a class="side-bar-items" href="../Responsive-Image//image.html">Image</a>
+                <a class="side-bar-items active" href="../Input/input.html">Input</a>
+
                 <a class="side-bar-items" href="#">List</a>
                 <a class="side-bar-items" href="#">Toast</a>
 
             </div>
 
             <div class="content">
-                <span class="title">Alert</span>
-                <p class="margin-bottom-1 p-content">An alert displays a short, important message in a way that attracts
-                    the user's attention without interrupting the user's task.
+                <span class="title">Inputs</span>
+                <p class="margin-bottom-1 p-content">Inputs are necessary for user interaction with the website. Inputs
+                    are used to take information from the user, and then save the data to the server, accordingly.
 
                 </p>
                 <hr class="margin-bottom-1">
-                <!-- Simple Alert -->
-                <span class="sub-title">Simple Alert</span>
-                <p class="p-content">Simple Alerts can be created using alert class, followed by the variant name.
-                </p>
-
-                <div class="alert-container">
-
-                    <div class="alert primary">
-                        <strong>Primary !</strong>&nbsp This is a Primary Alert - Check it now !
-                    </div>
-
-                    <div class="alert error">
-                        <strong>Error!</strong>&nbsp This is a Error Alert - Check it now !
-                    </div>
-
-                    <div class="alert success">
-                        <strong>Success!</strong>&nbsp This is a Success Alert - Check it now!
-                    </div>
-
-                    <div class="alert warning">
-                        <strong>Warning!</strong>&nbsp This is a Warning Alert - Check it now!
-                    </div>
-
-                </div>
-
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/hlVq7ES30xqf6NCgpWbC"
-                    style="width: 555px; height: 540px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                <hr class="margin-bottom-1">
-
-                <!-- Outline Alert
+                <!-- Label Inputs
  -->
-                <span class="sub-title">Outline Alert</span>
-                <p class="p-content">Outline alerts are created by using alert class, followed by outline-variant.
+                <span class="sub-title">Label Inputs
+                </span>
+                <p class="p-content">Label Input has a label present at the top of the input field. They can be
+                    customized to show error error-message, and change color accordingly.
                 </p>
 
-                <div class="alert-container">
+                <div class="input-container">
 
-                    <div class="alert outline-primary">
-                        <strong>Primary !</strong>&nbsp This is a Primary Alert - Check it now !
+                    <div class="input-group">
+                        <label class="label">Username *</label>
+                        <input class="input" type="text">
                     </div>
 
-                    <div class="alert outline-error">
-                        <strong>Error !</strong>&nbsp This is a Error Alert - Check it now !
-                    </div>
-
-                    <div class="alert outline-success">
-                        <strong>Success !</strong>&nbsp This is a Success Alert - Check it now !
-                    </div>
-
-                    <div class="alert outline-warning">
-                        <strong>Warning !</strong>&nbsp This is a Warning Alert - Check it now !
+                    <div class="input-group input-error">
+                        <label class="label">Password *</label>
+                        <input class="input" type="password">
+                        <div class="input-error-message">
+                            Wrong Password. Try again.
+                        </div>
                     </div>
 
                 </div>
 
-
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/SwjURmxwleVhsWBxAkuD"
-                    style="width: 555px; height: 540px; border:0; transform: scale(1); overflow:hidden;"
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/S2qjDPazmskj3oVLYd8d"
+                    style="width: 513px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <hr class="margin-bottom-1">
+
+                <!-- Radio
+ -->
+                <span class="sub-title">Radio
+                </span>
+                <p class="p-content">Radio buttons allow the user to select one option from a set.
+                </p>
+
+                <div class="input-container">
+
+                    <div>
+                        <input type="radio" name="sample">
+                        <label class="radio-btn">Checked</label>
+
+                        <input type="radio" name="sample">
+                        <label class="radio-btn">Unchecked</label>
+
+                        <input type="radio" disabled name="sample">
+                        <label class="radio-btn">disabled</label>
+                    </div>
+
+                </div>
+
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/VXhy4FeQusNt1qvUwEpy"
+                    style="width: 529px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="margin-bottom-1">
+
+                <!-- Check box
+ -->
+                <span class="sub-title">Checkbox
+                </span>
+                <p class="p-content">Checkboxes allow the user to select one or more items from a set. Checkboxes can be
+                    used to turn an option on or off.<br>
+                    If you have multiple options appearing in a list, you can preserve space by using checkboxes instead
+                    of on/off switches. If you have a single option, avoid using a checkbox and use an on/off switch
+                    instead.
+                </p>
+
+                <div class="input-container">
+
+                    <div>
+                        <input type="checkbox" name="sample">
+                        <label class="checkbox-btn">Checked</label>
+
+                        <input type="checkbox" name="sample">
+                        <label class="checkbox-btn">Unchecked</label>
+
+                        <input type="checkbox" disabled name="sample">
+                        <label class="checkbox-btn">disabled</label>
+                    </div>
+
+                </div>
+
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/hJW7OuGySxCSiQIpZdOi"
+                    style="width: 555px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="margin-bottom-1">
+
 
             </div>
         </div>
