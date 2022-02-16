@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technoracy | Button</title>
-    <link rel="stylesheet" href="./button.css">
+    <title>Technoracy | Alert</title>
+    <link rel="stylesheet" href="./alert.css">
     <link rel="stylesheet" href="../../Css/navbar.css">
     <link rel="stylesheet" href="../../Css/sidebar.css">
     <link rel="stylesheet" href="../../Css/components.css">
@@ -41,13 +41,12 @@
 
                 </div>
                 <a class="side-bar-items" href="../Avatar/avatar.html">Avatar</a>
-                <a class="side-bar-items" href="../Alert/alert.html">Alert</a>
+                <a class="side-bar-items" href="./alert.html">Alert</a>
                 <a class="side-bar-items" href="../Badge/badge.html">Badge</a>
                 <a class="side-bar-items" href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
                 <a class="side-bar-items" href="../Responsive-Image/image.html">Image</a>
                 <a class="side-bar-items " href="../Input/input.html">Input</a>
-
                 <a class="side-bar-items" href="#">List</a>
                 <a class="side-bar-items" href="#">Toast</a>
             </section>
@@ -71,101 +70,87 @@
                 </div>
 
                 <a class="side-bar-items" href="../Avatar/avatar.html">Avatar</a>
-                <a class="side-bar-items" href="../Alert/alert.html">Alert</a>
+                <a class="side-bar-items active" href="./alert.html">Alert</a>
                 <a class="side-bar-items " href="../Badge/badge.html">Badge</a>
-                <a class="side-bar-items active" href="../Button/button.html">Button</a>
+                <a class="side-bar-items " href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
                 <a class="side-bar-items" href="../Responsive-Image/image.html">Image</a>
                 <a class="side-bar-items " href="../Input/input.html">Input</a>
-
                 <a class="side-bar-items" href="#">List</a>
                 <a class="side-bar-items" href="#">Toast</a>
 
             </div>
 
             <div class="content">
-                <span class="title">Button</span>
-                <p class="margin-bottom-1 p-content">Buttons are the soul of an interactive Web Application. Buttons
-                    allow users to take actions, and make choices, with a single tap.
+                <span class="title">Alert</span>
+                <p class="margin-bottom-1 p-content">An alert displays a short, important message in a way that attracts
+                    the user's attention without interrupting the user's task.
 
                 </p>
                 <hr class="margin-bottom-1">
-                <!-- Contained Button -->
-                <span class="sub-title">Contained Button</span>
-                <p class="p-content">Contained buttons are high-emphasis, distinguished by their use of elevation and
-                    fill. They contain actions that are primary to your app.</p>
+                <!-- Simple Alert -->
+                <span class="sub-title">Simple Alert</span>
+                <p class="p-content">Simple Alerts can be created using alert class, followed by the variant name.
+                </p>
 
+                <div class="alert-container">
 
+                    <div class="alert primary">
+                        <strong>Primary !</strong>&nbsp This is a Primary Alert - Check it now !
+                    </div>
 
-                <div class="button-container">
-                    <button class="btn">Default</button>
-                    <button class="btn btn-secondary">Secondary</button>
-                    <button class="btn btn-error">Error</button>
-                    <button class="btn btn-success">Success</button>
-                </div>
-                <iframe class="iframeHide" src=" https://carbon.now.sh/embed/fP4EP4T5mXY8O4qFipP7"
-                    style="width: 589px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                <hr class="margin-bottom-1">
+                    <div class="alert error">
+                        <strong>Error!</strong>&nbsp This is a Error Alert - Check it now !
+                    </div>
 
-                <!-- Outline Button -->
-                <span class="sub-title">Outline Button</span>
-                <p class="p-content">In need of a button, but not the hefty background colors they bring? Replace
-                    '.btn-variant' with '.outline-variant'.</p>
+                    <div class="alert success">
+                        <strong>Success!</strong>&nbsp This is a Success Alert - Check it now!
+                    </div>
 
-
-
-                <div class="button-container">
-                    <button class="btn outline">Default</button>
-                    <button class="btn outline-secondary">Secondary</button>
-                    <button class="btn outline-error">Error</button>
-                    <button class="btn outline-success">Success</button>
-                </div>
-
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/Q0sj9cyVXEY3qFZUsJ2h"
-                    style="width: 622px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                <hr class="margin-bottom-1">
-
-                <!-- Link Button -->
-
-                <span id="Link" class="sub-title">Link Button</span>
-                <p class="p-content">Want to attach a link action, at a button tap? Use Link Button</p>
-
-
-
-                <div class="button-container">
-                    <button class="btn link-btn">
-                        <a href="#Link">Link</a>
-                    </button>
+                    <div class="alert warning">
+                        <strong>Warning!</strong>&nbsp This is a Warning Alert - Check it now!
+                    </div>
 
                 </div>
 
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/2fUMKCGA3IvoMQqXCFIm"
-                    style="width: 395px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/hlVq7ES30xqf6NCgpWbC"
+                    style="width: 555px; height: 540px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <hr class="margin-bottom-1">
 
-                <!-- Icon Button -->
+                <!-- Outline Alert
+ -->
+                <span class="sub-title">Outline Alert</span>
+                <p class="p-content">Outline alerts are created by using alert class, followed by outline-variant.
+                </p>
 
-                <span id="Link" class="sub-title">Icon Button</span>
-                <p class="p-content">Icon Buttons can be created, by using a SVG as a child to parent button. Use the
-                    'btn' class followed by 'btn-icon'.</p>
+                <div class="alert-container">
+
+                    <div class="alert outline-primary">
+                        <strong>Primary !</strong>&nbsp This is a Primary Alert - Check it now !
+                    </div>
+
+                    <div class="alert outline-error">
+                        <strong>Error !</strong>&nbsp This is a Error Alert - Check it now !
+                    </div>
+
+                    <div class="alert outline-success">
+                        <strong>Success !</strong>&nbsp This is a Success Alert - Check it now !
+                    </div>
+
+                    <div class="alert outline-warning">
+                        <strong>Warning !</strong>&nbsp This is a Warning Alert - Check it now !
+                    </div>
+
+                </div>
 
 
-
-                <div class="button-container">
-                    <button class="btn"><img src="https://bit.ly/3HCXRns"></img>&nbsp
-                        Save</button>
-                </div><iframe class="iframeHide" src=" https://carbon.now.sh/embed/ItrrXL29ey7KFebWjRkY"
-                    style="width: 765px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/SwjURmxwleVhsWBxAkuD"
+                    style="width: 555px; height: 540px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <hr class="margin-bottom-1">
-
 
             </div>
         </div>

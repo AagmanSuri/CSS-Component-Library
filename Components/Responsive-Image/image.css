@@ -1,0 +1,29 @@
+.image-container {
+  background-color: var(--lightGray-color);
+  min-height: 20rem;
+  border: 1rem solid var(--lightGray-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.square-img {
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+}
+
+.round-img {
+  height: 15rem;
+  width: 15rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.full-width-img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
