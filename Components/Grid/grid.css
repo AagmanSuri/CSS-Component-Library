@@ -1,0 +1,26 @@
+.grid-container {
+  background-color: var(--lightGray-color);
+  min-height: 20rem;
+  border: 1rem solid var(--lightGray-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.child {
+  background-color: var(--white-color);
+  min-height: 7rem;
+  min-width: 8rem;
+  border: 1px solid var(--default-color);
+}
+
+.grid-2-items {
+  display: grid;
+  grid-template-columns: auto auto;
+}
