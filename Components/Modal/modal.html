@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technoracy | Input</title>
-    <link rel="stylesheet" href="./input.css">
+    <title>Technoracy | Modal</title>
+    <link rel="stylesheet" href="./modal.css">
     <link rel="stylesheet" href="../../Css/navbar.css">
     <link rel="stylesheet" href="../../Css/sidebar.css">
     <link rel="stylesheet" href="../../Css/components.css">
@@ -46,9 +46,11 @@
                 <a class="side-bar-items" href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
                 <a class="side-bar-items" href="../Responsive-Image/image.html">Image</a>
-                <a class="side-bar-items active" href="../Input/input.html">Input</a>
+                <a class="side-bar-items " href="../Input/input.html">Input</a>
                 <a class="side-bar-items" href="../List/list.html">List</a>
                 <a class="side-bar-items" href="../Toast/toast.html">Toast</a>
+
+                <a class="side-bar-items " href="../Rating/rating.html">Rating</a>
                 <a class="side-bar-items " href="../Grid/grid.html">Grid</a>
                 <a class="side-bar-items " href="../Modal/modal.html">Modal</a>
             </section>
@@ -77,110 +79,55 @@
                 <a class="side-bar-items " href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
                 <a class="side-bar-items" href="../Responsive-Image//image.html">Image</a>
-                <a class="side-bar-items active" href="../Input/input.html">Input</a>
+                <a class="side-bar-items " href="../Input/input.html">Input</a>
 
-                <a class="side-bar-items" href="../List/list.html">List</a>
+
+                <a class="side-bar-items 
+" href="../List/list.html">List</a>
                 <a class="side-bar-items" href="../Toast/toast.html">Toast</a>
+                <a class="side-bar-items " href="../Rating/rating.html">Rating</a>
                 <a class="side-bar-items " href="../Grid/grid.html">Grid</a>
-                <a class="side-bar-items " href="../Modal/modal.html">Modal</a>
+                <a class="side-bar-items active" href="../Modal/modal.html">Modal</a>
+
+
             </div>
 
             <div class="content">
-                <span class="title">Inputs</span>
-                <p class="margin-bottom-1 p-content">Inputs are necessary for user interaction with the website. Inputs
-                    are used to take information from the user, and then save the data to the server, accordingly.
+                <span class="title">Modal</span>
+                <p class="margin-bottom-1 p-content">Modal can be used for creating dialog boxes, to communicate with
+                    user.
 
                 </p>
                 <hr class="margin-bottom-1">
-                <!-- Label Inputs
+                <!-- Modal
  -->
-                <span class="sub-title">Label Inputs
-                </span>
-                <p class="p-content">Label Input has a label present at the top of the input field. They can be
-                    customized to show error error-message, and change color accordingly.
-                </p>
 
-                <div class="input-container">
+                <br></br>
 
-                    <div class="input-group">
-                        <label class="label">Username *</label>
-                        <input class="input" type="text">
-                    </div>
+                <div class="modal-container">
 
-                    <div class="input-group input-error">
-                        <label class="label" required>Password *</label>
-                        <input class="input" type="password">
-                        <div class="input-error-message">
-                            Wrong Password. Try again.
+                    <div class="modal">
+
+                        <div class="modal-heading">Modal Heading</div>
+                        <p class="modal-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
+                        <div class="modal-footer">
+                            <button class="primary-btn">Save</button>
+                            <button class="secondary-btn">Close</button>
                         </div>
+
                     </div>
 
                 </div>
 
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/S2qjDPazmskj3oVLYd8d"
-                    style="width: 513px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/oHRgA0cKxfKrCDpmdq63"
+                    style="width: 656px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
-                <hr class="margin-bottom-1">
 
-                <!-- Radio
- -->
-                <span class="sub-title">Radio
-                </span>
-                <p class="p-content">Radio buttons allow the user to select one option from a set.
-                </p>
-
-                <div class="input-container">
-
-                    <div>
-                        <input type="radio" name="sample">
-                        <label class="radio-btn">Checked</label>
-
-                        <input type="radio" name="sample">
-                        <label class="radio-btn">Unchecked</label>
-
-                        <input type="radio" disabled name="sample">
-                        <label class="radio-btn">disabled</label>
-                    </div>
-
-                </div>
-
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/VXhy4FeQusNt1qvUwEpy"
-                    style="width: 529px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                <hr class="margin-bottom-1">
-
-                <!-- Check box
- -->
-                <span class="sub-title">Checkbox
-                </span>
-                <p class="p-content">Checkboxes allow the user to select one or more items from a set. Checkboxes can be
-                    used to turn an option on or off.<br>
-                    If you have multiple options appearing in a list, you can preserve space by using checkboxes instead
-                    of on/off switches. If you have a single option, avoid using a checkbox and use an on/off switch
-                    instead.
-                </p>
-
-                <div class="input-container">
-
-                    <div>
-                        <input type="checkbox" name="sample">
-                        <label class="checkbox-btn">Checked</label>
-
-                        <input type="checkbox" name="sample">
-                        <label class="checkbox-btn">Unchecked</label>
-
-                        <input type="checkbox" disabled name="sample">
-                        <label class="checkbox-btn">disabled</label>
-                    </div>
-
-                </div>
-
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/hJW7OuGySxCSiQIpZdOi"
-                    style="width: 555px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
                 <hr class="margin-bottom-1">
 
 
