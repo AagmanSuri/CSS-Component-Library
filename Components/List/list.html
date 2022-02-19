@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technoracy | Alert</title>
-    <link rel="stylesheet" href="./alert.css">
+    <title>Technoracy | List</title>
+    <link rel="stylesheet" href="./list.css">
     <link rel="stylesheet" href="../../Css/navbar.css">
     <link rel="stylesheet" href="../../Css/sidebar.css">
     <link rel="stylesheet" href="../../Css/components.css">
@@ -41,7 +41,7 @@
 
                 </div>
                 <a class="side-bar-items" href="../Avatar/avatar.html">Avatar</a>
-                <a class="side-bar-items" href="./alert.html">Alert</a>
+                <a class="side-bar-items" href="../Alert/alert.html">Alert</a>
                 <a class="side-bar-items" href="../Badge/badge.html">Badge</a>
                 <a class="side-bar-items" href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
@@ -70,87 +70,133 @@
                 </div>
 
                 <a class="side-bar-items" href="../Avatar/avatar.html">Avatar</a>
-                <a class="side-bar-items active" href="./alert.html">Alert</a>
+                <a class="side-bar-items " href="../Alert/alert.html">Alert</a>
                 <a class="side-bar-items " href="../Badge/badge.html">Badge</a>
                 <a class="side-bar-items " href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
-                <a class="side-bar-items" href="../Responsive-Image/image.html">Image</a>
+                <a class="side-bar-items" href="../Responsive-Image//image.html">Image</a>
                 <a class="side-bar-items " href="../Input/input.html">Input</a>
-                <a class="side-bar-items" href="../List/list.html">List</a>
+
+                <a class="side-bar-items active
+" href="../List/list.html">List</a>
                 <a class="side-bar-items" href="../Toast/toast.html">Toast</a>
 
             </div>
 
             <div class="content">
-                <span class="title">Alert</span>
-                <p class="margin-bottom-1 p-content">An alert displays a short, important message in a way that attracts
-                    the user's attention without interrupting the user's task.
+                <span class="title">List</span>
+                <p class="margin-bottom-1 p-content">Lists are continuous, vertical indexes of text or images. They are
+                    composed of items containing primary and supplemental actions, which are represented by icons and
+                    text.
 
                 </p>
                 <hr class="margin-bottom-1">
-                <!-- Simple Alert -->
-                <span class="sub-title">Simple Alert</span>
-                <p class="p-content">Simple Alerts can be created using alert class, followed by the variant name.
-                </p>
-
-                <div class="alert-container">
-
-                    <div class="alert primary">
-                        <strong>Primary !</strong>&nbsp This is a Primary Alert - Check it now !
-                    </div>
-
-                    <div class="alert error">
-                        <strong>Error!</strong>&nbsp This is a Error Alert - Check it now !
-                    </div>
-
-                    <div class="alert success">
-                        <strong>Success!</strong>&nbsp This is a Success Alert - Check it now!
-                    </div>
-
-                    <div class="alert warning">
-                        <strong>Warning!</strong>&nbsp This is a Warning Alert - Check it now!
-                    </div>
-
-                </div>
-
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/hlVq7ES30xqf6NCgpWbC"
-                    style="width: 555px; height: 540px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                <hr class="margin-bottom-1">
-
-                <!-- Outline Alert
+                <!-- Simple List Groups
  -->
-                <span class="sub-title">Outline Alert</span>
-                <p class="p-content">Outline alerts are created by using alert class, followed by outline-variant.
-                </p>
+                <span class="sub-title">Simple List Groups
+                </span>
+                <br></br>
 
-                <div class="alert-container">
+                <div class="list-container">
 
-                    <div class="alert outline-primary">
-                        <strong>Primary !</strong>&nbsp This is a Primary Alert - Check it now !
-                    </div>
 
-                    <div class="alert outline-error">
-                        <strong>Error !</strong>&nbsp This is a Error Alert - Check it now !
-                    </div>
+                    <div class="list">
+                        <div class="list-heading">Categories</div>
+                        <hr class="hr-lists">
 
-                    <div class="alert outline-success">
-                        <strong>Success !</strong>&nbsp This is a Success Alert - Check it now !
-                    </div>
 
-                    <div class="alert outline-warning">
-                        <strong>Warning !</strong>&nbsp This is a Warning Alert - Check it now !
+                        <ul class="list-items">
+                            <li>Home</li>
+                            <li>SmartPhones</li>
+                            <li>Earphones</li>
+                            <li>Watches</li>
+
+                        </ul>
                     </div>
 
                 </div>
 
 
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/SwjURmxwleVhsWBxAkuD"
-                    style="width: 555px; height: 540px; border:0; transform: scale(1); overflow:hidden;"
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/Ht81c5SV9JPcjny49xnY"
+                    style="width: 521px; height: 447px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <hr class="margin-bottom-1">
+
+                <!-- Nested List Groups
+ -->
+                <span class="sub-title">Nested List Groups
+                </span>
+
+                <br></br>
+                <div class="list-container ">
+
+                    <div class="list">
+                        <div class="list-heading">Categories</div>
+                        <hr class="hr-lists">
+
+
+                        <ul class="list-items">
+                            <li>Home</li>
+                            <li>SmartPhones</li>
+                            <div class="nested-list-items">
+                                <li>Apple</li>
+                                <li>Mi</li>
+                                <li>OnePlus</li>
+                            </div>
+                            <li>Earphones</li>
+                            <li>Watches</li>
+
+                        </ul>
+                    </div>
+
+
+
+                </div>
+
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/HHbKBJ0t8BUV5z4nuM0E"
+                    style="width: 521px; height: 484px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="margin-bottom-1">
+
+                <!-- Check box
+ -->
+                <span class="sub-title">Select List Groups
+                </span>
+                <p class="p-content">Select List groups contains items with checkboxes. They are useful for refining the
+                    products search on an eCommerce website.
+                </p>
+
+                <div class="list-container">
+
+                    <div class="list">
+                        <div class="list-heading">Refine search</div>
+                        <hr class="hr-lists">
+
+                        <div class="list-heading">Brand</div>
+
+                        <div class="margin-left-list">
+                            <input type="checkbox" name="sample">
+                            <label>Apple</label>
+                            <br>
+                            <input type="checkbox" name="sample">
+                            <label>Mi</label>
+                            <br>
+                            <input type="checkbox" name="sample">
+                            <label>OnePlus</label>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/5oR4NECWjq6OyJRj8t8T"
+                    style="width: 563px; height: 502px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="margin-bottom-1">
+
 
             </div>
         </div>
