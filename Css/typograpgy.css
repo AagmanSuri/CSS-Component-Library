@@ -1,0 +1,9 @@
+.typo-container {
+  background-color: var(--lightGray-color);
+  min-height: 20rem;
+  border: 1rem solid var(--lightGray-color);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: var(--default-color);
+}
