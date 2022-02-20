@@ -1,16 +1,16 @@
-@import url("../Components/Alert/alert.html");
+@import url("../Components/Alert/alert.css");
 @import url("../Components/Badge/badge.css");
 @import url("../Components/Avatar/avatar.css");
-@import url("../Components/Button/button.html");
-@import url("../Components/Cards/card.html");
-@import url("../Components/Grid/grid.html");
-@import url("../Components/Input/input.html");
-@import url("../Components/List/list.html");
-@import url("../Components/Modal/modal.html");
-@import url("../Components/Navigation/navigation.html");
-@import url("../Components/Rating/rating.html");
-@import url("../Components/Responsive-Image/image.html");
-@import url("../Components/Toast/toast.html");
+@import url("../Components/Button/button.css");
+@import url("../Components/Cards/card.css");
+@import url("../Components/Grid/grid.css");
+@import url("../Components/Input/input.css");
+@import url("../Components/List/list.css");
+@import url("../Components/Modal/modal.css");
+@import url("../Components/Navigation/navigation.css");
+@import url("../Components/Rating/rating.css");
+@import url("../Components/Responsive-Image/image.css");
+@import url("../Components/Toast/toast.css");
 
 :root {
   --primary-color: #b34000;
