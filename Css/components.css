@@ -3,8 +3,8 @@
 
 :root {
   --primary-color: #b34000;
-  --secondary-color: darkgray;
-  --default-color: rgb(51, 51, 51);
+  --secondary-color: #a9a9a9;
+  --default-color: #333333;
   --lightGray-color: lightgray;
   --online-color: green;
   --badge-border: #ffffff;
@@ -12,8 +12,8 @@
   --dnd-color: #de0101;
   --white-color: white;
   --danger-color: #de0101;
-  --success-color: green;
-  --red-color: red;
+  --success-color: #008000;
+  --red-color: #ff0000;
   --warning-color: #f4a240;
 }
 
