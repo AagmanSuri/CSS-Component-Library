@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technoracy | Button</title>
-    <link rel="stylesheet" href="./button.css">
+    <title>Technoracy | Input</title>
+    <link rel="stylesheet" href="./input.css">
     <link rel="stylesheet" href="../../Css/navbar.css">
     <link rel="stylesheet" href="../../Css/sidebar.css">
     <link rel="stylesheet" href="../../Css/components.css">
@@ -46,8 +46,7 @@
                 <a class="side-bar-items" href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
                 <a class="side-bar-items" href="../Responsive-Image/image.html">Image</a>
-                <a class="side-bar-items " href="../Input/input.html">Input</a>
-
+                <a class="side-bar-items active" href="../Input/input.html">Input</a>
                 <a class="side-bar-items" href="../List/list.html">List</a>
                 <a class="side-bar-items" href="../Toast/toast.html">Toast</a>
                 <a class="side-bar-items " href="../Grid/grid.html">Grid</a>
@@ -74,13 +73,12 @@
                 </div>
 
                 <a class="side-bar-items" href="../Avatar/avatar.html">Avatar</a>
-                <a class="side-bar-items" href="../Alert/alert.html">Alert</a>
+                <a class="side-bar-items " href="../Alert/alert.html">Alert</a>
                 <a class="side-bar-items " href="../Badge/badge.html">Badge</a>
-                <a class="side-bar-items active" href="../Button/button.html">Button</a>
+                <a class="side-bar-items " href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
-                <a class="side-bar-items" href="../Responsive-Image/image.html">Image</a>
-                <a class="side-bar-items " href="../Input/input.html">Input</a>
-
+                <a class="side-bar-items" href="../Responsive-Image//image.html">Image</a>
+                <a class="side-bar-items active" href="../Input/input.html">Input</a>
                 <a class="side-bar-items" href="../List/list.html">List</a>
                 <a class="side-bar-items" href="../Toast/toast.html">Toast</a>
                 <a class="side-bar-items " href="../Grid/grid.html">Grid</a>
@@ -89,84 +87,99 @@
             </div>
 
             <div class="content">
-                <span class="title">Button</span>
-                <p class="margin-bottom-1 p-content">Buttons are the soul of an interactive Web Application. Buttons
-                    allow users to take actions, and make choices, with a single tap.
+                <span class="title">Inputs</span>
+                <p class="margin-bottom-1 p-content">Inputs are necessary for user interaction with the website. Inputs
+                    are used to take information from the user, and then save the data to the server, accordingly.
 
                 </p>
                 <hr class="margin-bottom-1">
-                <!-- Contained Button -->
-                <span class="sub-title">Contained Button</span>
-                <p class="p-content">Contained buttons are high-emphasis, distinguished by their use of elevation and
-                    fill. They contain actions that are primary to your app.</p>
+                <!-- Label Inputs
+ -->
+                <span class="sub-title">Label Inputs
+                </span>
+                <p class="p-content">Label Input has a label present at the top of the input field. They can be
+                    customized to show error error-message, and change color accordingly.
+                </p>
 
+                <div class="input-container">
 
+                    <div class="input-group">
+                        <label class="label">Username *</label>
+                        <input class="input" type="text">
+                    </div>
 
-                <div class="button-container">
-                    <button class="btn">Default</button>
-                    <button class="btn btn-secondary">Secondary</button>
-                    <button class="btn btn-error">Error</button>
-                    <button class="btn btn-success">Success</button>
+                    <div class="input-group input-error">
+                        <label class="label" required>Password *</label>
+                        <input class="input" type="password">
+                        <div class="input-error-message">
+                            Wrong Password. Try again.
+                        </div>
+                    </div>
+
                 </div>
-                <iframe class="iframeHide" src=" https://carbon.now.sh/embed/fP4EP4T5mXY8O4qFipP7"
-                    style="width: 589px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/S2qjDPazmskj3oVLYd8d"
+                    style="width: 513px; height: 409px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <hr class="margin-bottom-1">
 
-                <!-- Outline Button -->
-                <span class="sub-title">Outline Button</span>
-                <p class="p-content">In need of a button, but not the hefty background colors they bring? Replace
-                    '.btn-variant' with '.outline-variant'.</p>
+                <!-- Radio
+ -->
+                <span class="sub-title">Radio
+                </span>
+                <p class="p-content">Radio buttons allow the user to select one option from a set.
+                </p>
 
+                <div class="input-container">
 
+                    <div>
+                        <input type="radio" name="sample">
+                        <label class="radio-btn">Checked</label>
 
-                <div class="button-container">
-                    <button class="btn outline">Default</button>
-                    <button class="btn outline-secondary">Secondary</button>
-                    <button class="btn outline-error">Error</button>
-                    <button class="btn outline-success">Success</button>
+                        <input type="radio" name="sample">
+                        <label class="radio-btn">Unchecked</label>
+
+                        <input type="radio" disabled name="sample">
+                        <label class="radio-btn">disabled</label>
+                    </div>
+
                 </div>
 
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/Q0sj9cyVXEY3qFZUsJ2h"
-                    style="width: 622px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/VXhy4FeQusNt1qvUwEpy"
+                    style="width: 529px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <hr class="margin-bottom-1">
 
-                <!-- Link Button -->
+                <!-- Check box
+ -->
+                <span class="sub-title">Checkbox
+                </span>
+                <p class="p-content">Checkboxes allow the user to select one or more items from a set. Checkboxes can be
+                    used to turn an option on or off.<br>
+                    If you have multiple options appearing in a list, you can preserve space by using checkboxes instead
+                    of on/off switches. If you have a single option, avoid using a checkbox and use an on/off switch
+                    instead.
+                </p>
 
-                <span id="Link" class="sub-title">Link Button</span>
-                <p class="p-content">Want to attach a link action, at a button tap? Use Link Button</p>
+                <div class="input-container">
 
+                    <div>
+                        <input type="checkbox" name="sample">
+                        <label class="checkbox-btn">Checked</label>
 
+                        <input type="checkbox" name="sample">
+                        <label class="checkbox-btn">Unchecked</label>
 
-                <div class="button-container">
-                    <button class="btn link-btn">
-                        <a href="#Link">Link</a>
-                    </button>
+                        <input type="checkbox" disabled name="sample">
+                        <label class="checkbox-btn">disabled</label>
+                    </div>
 
                 </div>
 
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/2fUMKCGA3IvoMQqXCFIm"
-                    style="width: 395px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                <hr class="margin-bottom-1">
-
-                <!-- Icon Button -->
-
-                <span id="Link" class="sub-title">Icon Button</span>
-                <p class="p-content">Icon Buttons can be created, by using a SVG as a child to parent button. Use the
-                    'btn' class followed by 'btn-icon'.</p>
-
-
-
-                <div class="button-container">
-                    <button class="btn"><img src="https://bit.ly/3HCXRns"></img>&nbsp
-                        Save</button>
-                </div><iframe class="iframeHide" src=" https://carbon.now.sh/embed/ItrrXL29ey7KFebWjRkY"
-                    style="width: 765px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/hJW7OuGySxCSiQIpZdOi"
+                    style="width: 555px; height: 372px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
                 <hr class="margin-bottom-1">

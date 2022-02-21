@@ -1,10 +1,21 @@
+@import url("../Components/Alert/alert.css");
 @import url("../Components/Badge/badge.css");
 @import url("../Components/Avatar/avatar.css");
+@import url("../Components/Button/button.css");
+@import url("../Components/Cards/card.css");
+@import url("../Components/Grid/grid.css");
+@import url("../Components/Input/input.css");
+@import url("../Components/List/list.css");
+@import url("../Components/Modal/modal.css");
+@import url("../Components/Navigation/navigation.css");
+@import url("../Components/Rating/rating.css");
+@import url("../Components/Responsive-Image/image.css");
+@import url("../Components/Toast/toast.css");
 
 :root {
   --primary-color: #b34000;
-  --secondary-color: darkgray;
-  --default-color: rgb(51, 51, 51);
+  --secondary-color: #a9a9a9;
+  --default-color: #333333;
   --lightGray-color: lightgray;
   --online-color: green;
   --badge-border: #ffffff;
@@ -12,8 +23,9 @@
   --dnd-color: #de0101;
   --white-color: white;
   --danger-color: #de0101;
-  --success-color: green;
-  --red-color: red;
+  --success-color: #008000;
+  --red-color: #ff0000;
+  --warning-color: #f4a240;
 }
 
 html {
@@ -72,7 +84,6 @@ hr {
   border: 0;
   clear: both;
   display: block;
-  background-color: var(--lightGray-color);
   height: 0.1rem;
 }
 
@@ -131,13 +142,20 @@ hr {
   .ham-icon {
     margin-left: auto;
   }
+
   .hide-nav {
     display: none;
   }
+
   .content {
     margin-right: 3rem;
   }
+
   .iframeHide {
     display: none;
+  }
+
+  .alert {
+    width: auto;
   }
 }

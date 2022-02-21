@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Technoracy | Avatar</title>
-    <link rel="stylesheet" href="./avatar.css">
+    <title>Technoracy | Image</title>
+    <link rel="stylesheet" href="./image.css">
     <link rel="stylesheet" href="../../Css/navbar.css">
-    <link rel="stylesheet" href="../../Css/components.css">
     <link rel="stylesheet" href="../../Css/sidebar.css">
-
-
+    <link rel="stylesheet" href="../../Css/components.css">
+    <link rel="stylesheet" href="../../Assets/Prism/prism.css">
 </head>
 
 <body>
@@ -25,9 +24,7 @@
             <a class="nav-items hide-nav " href="../../index.html">Release</a>
             <button id="btn" class="button ham-icon"><img id="ham-icon-id"
                     src="https://api.iconify.design/cil:hamburger-menu.svg"></img></button>
-
         </nav>
-
         <div>
             <section class="hamburger" id="hide">
                 <span class="side-bar-title">Get Started</span>
@@ -43,14 +40,13 @@
                 <div id="line">
 
                 </div>
-                <a class="side-bar-items" href="./avatar.html">Avatar</a>
-                <a class="side-bar-items" href="../Alert/alert.html">Alert</a>
+                <a class="side-bar-items" href="../Avatar/avatar.html">Avatar</a>
+                <a class="side-bar-items" href="./alert.html">Alert</a>
                 <a class="side-bar-items" href="../Badge/badge.html">Badge</a>
                 <a class="side-bar-items" href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
                 <a class="side-bar-items" href="../Responsive-Image/image.html">Image</a>
                 <a class="side-bar-items " href="../Input/input.html">Input</a>
-
                 <a class="side-bar-items" href="../List/list.html">List</a>
                 <a class="side-bar-items" href="../Toast/toast.html">Toast</a>
                 <a class="side-bar-items " href="../Grid/grid.html">Grid</a>
@@ -58,7 +54,6 @@
                 <a class="side-bar-items " href="../Navigation/navigation.html">Navigation</a>
             </section>
         </div>
-
         <div class="wrapper">
 
             <div class="side-bar">
@@ -76,12 +71,13 @@
                 <div id="line">
                     <hr class="hr-sideBar" />
                 </div>
-                <a class="side-bar-items active" href="./avatar.html">Avatar</a>
-                <a class="side-bar-items" href="../Alert/alert.html">Alert</a>
-                <a class="side-bar-items" href="../Badge/badge.html">Badge</a>
-                <a class="side-bar-items" href="../Button/button.html">Button</a>
+
+                <a class="side-bar-items" href="../Avatar/avatar.html">Avatar</a>
+                <a class="side-bar-items " href="./alert.html">Alert</a>
+                <a class="side-bar-items " href="../Badge/badge.html">Badge</a>
+                <a class="side-bar-items " href="../Button/button.html">Button</a>
                 <a class="side-bar-items" href="../Cards/card.html">Card</a>
-                <a class="side-bar-items" href="../Responsive-Image/image.html">Image</a>
+                <a class="side-bar-items active" href="../Responsive-Image/image.html">Image</a>
                 <a class="side-bar-items " href="../Input/input.html">Input</a>
 
                 <a class="side-bar-items" href="../List/list.html">List</a>
@@ -89,69 +85,88 @@
                 <a class="side-bar-items " href="../Grid/grid.html">Grid</a>
                 <a class="side-bar-items " href="../Modal/modal.html">Modal</a>
                 <a class="side-bar-items " href="../Navigation/navigation.html">Navigation</a>
+
             </div>
 
             <div class="content">
-                <span class="title">Avatar</span>
-                <p class="margin-bottom-1 p-content">Avatars are user profile pictures, usually found in circular
-                    shapes. Avatars can be used for 'container' objects — projects, spaces, repositories, etcetera — to
-                    give them a recognisable visual identity.
+                <span class="title">Responsive Image</span>
+                <p class="margin-bottom-1 p-content">Responsive Image Components are used to dsiplay Images on websites,
+                    which are screen responsive. They expand upto the width of the container they are in.
+
                 </p>
                 <hr class="margin-bottom-1">
-                <span class="sub-title">Profile Avatar</span>
-                <p class="p-content">Profile Avatars can be created using the class 'avatar', inside the img tag.</p>
-
-                <!-- Profile Avatar -->
-                <div class="avatar-container">
-                    <img class="avatar" src="https://bit.ly/3J94zSO">
-                    <img class="avatar" src="https://bit.ly/3ou569I">
-                    <img class="avatar" src="https://bit.ly/34xfbf4">
-
-                </div>
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/OO9PRpBci23GOiIms42o"
-                    style="width: 563px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-
-                <hr class="margin-bottom-1">
-
-                <!-- Size Avatar --><span class="sub-title">Size Avatar</span>
-                <p class="p-content">Size of the avatars can be changed by adding sm | md | lg class to the existing
-                    avatar class.</p>
-
-                <div class="avatar-container">
-                    <img class="avatar sm" src="https://bit.ly/3J94zSO">
-                    <img class="avatar md" src="https://bit.ly/3ou569I">
-                    <img class="avatar lg" src="https://bit.ly/34xfbf4">
-
-                </div>
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/Jqbhd1Saz6e0MEtgvZds"
-                    style="width: 588px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                <hr class="margin-bottom-1">
-
-                <!-- Square Avatar --><span class="sub-title">Square Avatar</span>
-                <p class="p-content">Adding a class 'square' to existing class, will generate a square shaped avatar.
+                <!-- Square Image
+ -->
+                <span class="sub-title">Square Image
+                </span>
+                <p class="p-content">Square Images are the square shaped, with a default dimension of 150px X 150px.
                 </p>
 
-                <div class="avatar-container">
-                    <img class="avatar square sm" src="https://bit.ly/3J94zSO">
-                    <img class="avatar square md" src="https://bit.ly/3ou569I">
-                    <img class="avatar square lg" src="https://bit.ly/34xfbf4">
+                <div class="image-container">
+
+                    <img class="square-img" src="https://bit.ly/3gHXSKY">
+
+                    <img class="square-img" src="https://bit.ly/3oIUV17">
 
                 </div>
-                <iframe class="iframeHide" src="https://carbon.now.sh/embed/iBsDUJFLBtw20g27Bhw0"
-                    style="width: 648px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+
+
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/eEfZVmTqpd4yXQGjiLNM"
+                    style="width: 597px; height: 242px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="margin-bottom-1">
+
+                <!-- Round image -->
+
+                <span class="sub-title">Round Image
+                </span>
+                <p class="p-content">Round Images are the circular, with a default dimension of 150px X 150px.
+                </p>
+
+                <div class="image-container">
+
+                    <img class="round-img" src="https://bit.ly/3gHXSKY">
+
+                    <img class="round-img" src="https://bit.ly/3oIUV17">
+
+                </div>
+
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/1ND6q7CuEVHXhmmshudG"
+                    style="width: 589px; height: 260px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
 
+                <hr class="margin-bottom-1">
 
+                <!-- Full width image -->
+
+                <span class="sub-title">Full Width Image
+                </span>
+                <p class="p-content">Full Width Image is the one that expands to cover the container it is present in.
+                    Note : Resize the browser window, to see the responsive property.
+                </p>
+
+                <div class="image-container">
+
+                    <img class="full-width-img" src="https://bit.ly/3gHXSKY">
+
+
+
+                </div>
+
+                <iframe class="iframeHide" src="https://carbon.now.sh/embed/JKsSKPDKRoVZjOjwyN4H"
+                    style="width: 647px; height: 205px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+                <hr class="margin-bottom-1">
 
             </div>
         </div>
     </div>
+    <script src="../../Assets/Prism/prism.js"></script>
     <script src="../../main.js"></script>
+
 </body>
 
 </html>

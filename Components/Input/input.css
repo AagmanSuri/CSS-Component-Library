@@ -1,0 +1,47 @@
+.input-container {
+  background-color: var(--lightGray-color);
+  min-height: 20rem;
+  border: 1rem solid var(--lightGray-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  width: 70%;
+}
+
+.input {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.label {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.input-error {
+  color: var(--danger-color);
+}
+
+.input-error input {
+  border: 1px solid var(--danger-color);
+}
+
+.input-error-message {
+  font-size: 1.3rem;
+}
+
+.radio-btn {
+  font-size: 1.4rem;
+}
+
+.checkbox-btn {
+  font-size: 1.4rem;
+}
