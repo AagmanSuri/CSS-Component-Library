@@ -1,0 +1,58 @@
+.navigation-container {
+  background-color: var(--lightGray-color);
+  min-height: 20rem;
+  border: 1rem solid var(--lightGray-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--white-color);
+  padding: 2rem;
+  gap: 4rem;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+}
+
+.primary-btn {
+  border: none;
+  background-color: var(--primary-color);
+  padding: 0.4rem;
+  color: var(--white-color);
+  text-align: center;
+  min-width: 5rem;
+}
+
+.search {
+  padding: 0.2rem;
+  width: 200%;
+}
+
+.btn-collection {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.like-btn {
+  border: none;
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.badge-like-btn {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-radius: 50%;
+  padding: 0.4rem;
+  position: absolute;
+  top: -1rem;
+  left: 1.5rem;
+}

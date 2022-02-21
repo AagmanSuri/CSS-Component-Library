@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.child-default {
+  width: 9rem;
+  height: 10rem;
+  background-color: var(--default-color);
+  color: var(--white-color);
+  padding: 1rem;
+}
+
+.margin-top-wrap {
+  margin-top: 6rem;
+  margin-left: 0.2rem;
+}
+
+.child-primary {
+  width: 9rem;
+  height: 10rem;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 1rem;
+}
+.child-secondary {
+  width: 9rem;
+  height: 10rem;
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  padding: 1rem;
+}
+
+.child-danger {
+  width: 9rem;
+  height: 10rem;
+  background-color: var(--danger-color);
+  color: var(--white-color);
+  padding: 1rem;
+}
+
+.child-success {
+  width: 9rem;
+  height: 10rem;
+  background-color: var(--success-color);
+  color: var(--white-color);
+  padding: 1rem;
+}
+.child-warning {
+  width: 9rem;
+  height: 10rem;
+  background-color: var(--warning-color);
+  color: var(--white-color);
+  padding: 1rem;
+}
